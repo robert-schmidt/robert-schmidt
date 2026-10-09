@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase
           git add profile/*.svg
           git commit -m "Update ${{ matrix.theme }} cards" || exit 0
+          git pull --rebase
           git push
