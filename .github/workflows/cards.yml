@@ -1,0 +1,42 @@
+# Builds stats cards with a PAT so private repos are counted.
+# Only aggregate numbers and language names end up in the SVGs, no repo names.
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    strategy:
+      max-parallel: 1 # ponytail: serial so the two theme jobs don't race on git push
+      matrix:
+        theme: [dark, light]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=robert-schmidt&show_icons=true&include_all_commits=true&show=prs_merged,reviews&theme=${{ matrix.theme }}_github
+          path: profile/stats-${{ matrix.theme }}.svg
+          token: ${{ secrets.STATS_PAT }}
+          fail_on_error: true
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=robert-schmidt&layout=compact&langs_count=8&theme=${{ matrix.theme }}_github
+          path: profile/top-langs-${{ matrix.theme }}.svg
+          token: ${{ secrets.STATS_PAT }}
+          fail_on_error: true
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add profile/*.svg
+          git commit -m "Update ${{ matrix.theme }} cards" || exit 0
+          git push
