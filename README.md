@@ -9,11 +9,4 @@ I do stuff. Mostly backend, automation and tooling, from Romania. Building [Chro
 
 <img src="https://streak-stats.demolab.com?user=robert-schmidt&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
 
-#### 🛠️ Things I've built
-
-<a href="https://github.com/robert-schmidt/jitter"><picture><source srcset="https://github-stats-extended.vercel.app/api/pin/?username=robert-schmidt&repo=jitter&theme=dark_github_repocard" media="(prefers-color-scheme: dark)" /><img src="https://github-stats-extended.vercel.app/api/pin/?username=robert-schmidt&repo=jitter&theme=light_github_repocard" alt="jitter" /></picture></a>
-<a href="https://github.com/robert-schmidt/free-agent-web-search"><picture><source srcset="https://github-stats-extended.vercel.app/api/pin/?username=robert-schmidt&repo=free-agent-web-search&theme=dark_github_repocard" media="(prefers-color-scheme: dark)" /><img src="https://github-stats-extended.vercel.app/api/pin/?username=robert-schmidt&repo=free-agent-web-search&theme=light_github_repocard" alt="free-agent-web-search" /></picture></a>
-<a href="https://github.com/robert-schmidt/remove-x-followers"><picture><source srcset="https://github-stats-extended.vercel.app/api/pin/?username=robert-schmidt&repo=remove-x-followers&theme=dark_github_repocard" media="(prefers-color-scheme: dark)" /><img src="https://github-stats-extended.vercel.app/api/pin/?username=robert-schmidt&repo=remove-x-followers&theme=light_github_repocard" alt="remove-x-followers" /></picture></a>
-<a href="https://github.com/robert-schmidt/magento2-upgrade-kit"><picture><source srcset="https://github-stats-extended.vercel.app/api/pin/?username=robert-schmidt&repo=magento2-upgrade-kit&theme=dark_github_repocard" media="(prefers-color-scheme: dark)" /><img src="https://github-stats-extended.vercel.app/api/pin/?username=robert-schmidt&repo=magento2-upgrade-kit&theme=light_github_repocard" alt="magento2-upgrade-kit" /></picture></a>
-
 <img src="https://komarev.com/ghpvc/?username=robert-schmidt&style=flat-square&color=blue" alt="Profile views" />
