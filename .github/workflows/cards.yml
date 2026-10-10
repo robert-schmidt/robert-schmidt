@@ -28,7 +28,7 @@ jobs:
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=robert-schmidt&layout=compact&langs_count=8&theme=${{ matrix.theme }}_github
+          options: username=robert-schmidt&layout=compact&langs_count=8&hide=html,css,scss,blade&theme=${{ matrix.theme }}_github
           path: profile/top-langs-${{ matrix.theme }}.svg
           token: ${{ secrets.STATS_PAT }}
           fail_on_error: true
