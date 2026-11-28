@@ -1,6 +1,16 @@
 ### Hey, I'm Robert 👋
 
-I do stuff. Mostly backend, automation and tooling, from Romania. Building [Chronic](https://chronic.ro) · Blog: [bert.ro](https://bert.ro)
+I do stuff. Mostly backend, automation and tooling.
+
+Romanian born, Austrian heritage. My (own) company is [Chronic](https://chronic.ro) · and my (legacy) blog is [bert.ro](https://bert.ro)
+
+I do mostly Enterprise work under NDAs and different git accounts.
+
+What's published here as public are mostly derived from my hobbies and curiosities. 
+
+My privates are twice as many.
+
+No promises for anything, use it as it pleases or annoys you, I don't care.
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" /> <img src="https://img.shields.io/badge/Magento-EE672F?style=flat-square&logo=magento&logoColor=white" alt="Magento" /> <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
 
